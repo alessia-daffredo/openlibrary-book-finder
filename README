@@ -1,0 +1,39 @@
+# 📚 OpenLibrary Book Finder
+
+**OpenLibrary Book Finder** è una semplice applicazione JavaScript che consente di cercare libri per categoria tramite l'API pubblica di [OpenLibrary](https://openlibrary.org/).
+
+## 🚀 Funzionalità
+
+- Ricerca di libri per categoria (es. fantasy, horror, romance...)
+- Visualizzazione del titolo e degli autori
+- Visualizzazione della descrizione del libro selezionato
+
+## 🛠 Tecnologie utilizzate
+
+- HTML
+- CSS (in `assets/style.css`)
+- JavaScript Vanilla (in `assets/script.js`)
+- [Axios](https://axios-http.com/) per le chiamate API
+
+
+## 🔍 Come usare il progetto
+
+1. Apri `index.html` nel browser.
+2. Inserisci una **categoria** nella textbox (es: `fantasy`, `history`).
+3. Clicca su **"Cerca libri"**.
+4. Visualizza l’elenco dei libri con titolo e autore.
+5. Clicca su un titolo per leggere la descrizione completa.
+
+## 💡 Ispirazione e contesto
+
+Questo progetto è stato realizzato nell’ambito di un esercizio avanzato di JavaScript per Start2Impact.  
+L’azienda cliente ipotetica è **Owly**, una piattaforma SaaS per il supporto all'apprendimento nelle scuole primarie.
+
+### ✨ Mission di Owly
+Supportare bambini e insegnanti nell’apprendimento quotidiano, sia in classe che a distanza, attraverso un sistema interattivo, aggiornato e condiviso.
+
+---
+
+## 📌 Crediti
+
+Dati forniti tramite [OpenLibrary API](https://openlibrary.org/developers/api).
