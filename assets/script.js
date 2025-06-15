@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const bookList = document.getElementById('bookList');
   const bookDescription = document.getElementById('bookDescription');
 
-  // Quando clicchi su "Cerca libri"
+  // Quando clicco su "Cerca libri"
   searchBtn.addEventListener('click', async () => {
     const category = categoryInput.value.trim().toLowerCase();
     bookList.innerHTML = '';
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // Quando clicchi su un libro nella lista
+  // Quando clicco su un libro nella lista
   bookList.addEventListener('click', async (event) => {
     const li = event.target.closest('li');
     if (!li || !li.dataset.key) return;
